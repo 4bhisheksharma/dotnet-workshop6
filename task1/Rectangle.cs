@@ -26,5 +26,6 @@ namespace task1
         public double GetArea() => length * breadth;
         public string GetDetails() => $"Length: {length}, Breadth: {breadth}";
         public double GetPerimeter() => 2 * (length + breadth);
+
     }
 }
